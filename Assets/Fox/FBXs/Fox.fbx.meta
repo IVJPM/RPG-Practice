@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 91e4778cdfb185d4d9bfe81556dc4333
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 4ad23863efbf001479d8ebd01ef00654, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Fox(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fox
+      parentName: Fox(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxTransform
+      parentName: Fox(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fox_Pelvis
+      parentName: FoxTransform
+      position: {x: 0.000000015206112, y: -0.000000059604645, z: 0.90645564}
+      rotation: {x: 0.50000006, y: 0.4999999, z: -0.5, w: -0.50000006}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Fox_Spine1
+      parentName: Fox_Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000001244247, y: 0.0000020489097, z: -0.53476197, w: -0.84500283}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000004}
+    - name: Fox_Spine2
+      parentName: Fox_Spine1
+      position: {x: -0.33506042, y: 0, z: 0}
+      rotation: {x: -0.000000011736603, y: 0.000000067206884, z: 0.059941344, w: 0.9982019}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000004}
+    - name: Fox_Ribcage
+      parentName: Fox_Spine2
+      position: {x: -0.33506036, y: 0, z: 2.7284842e-13}
+      rotation: {x: -0.0000004243754, y: -0.0000020864425, z: 0.006923286, w: -0.99997604}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Fox_Spine
+      parentName: Fox_Ribcage
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940697, y: 0.000000059604645, z: 0.40316892, w: 0.9151256}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Fox_Head
+      parentName: Fox_Spine
+      position: {x: -0.36906552, y: 0.000000023841858, z: 0}
+      rotation: {x: 0.000000052154064, y: -0.000000018626451, z: -0.23813406, w: 0.9712323}
+      scale: {x: 0.9999984, y: 0.99999887, z: 0.9999992}
+    - name: Fox_LEye
+      parentName: Fox_Head
+      position: {x: -0.16065608, y: -0.020738602, z: 0.18594876}
+      rotation: {x: -0.69034547, y: 0.15304588, z: 0.21263103, w: -0.6743798}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: Fox_UpperLEyelid
+      parentName: Fox_Head
+      position: {x: -0.16065598, y: -0.02073865, z: 0.18594876}
+      rotation: {x: 0.73377275, y: 0.034728106, z: -0.032037266, w: 0.6777501}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Fox_LowerLEyelid
+      parentName: Fox_Head
+      position: {x: -0.16065598, y: -0.02073865, z: 0.18594876}
+      rotation: {x: -0.6016441, y: 0.33486548, z: 0.4212757, w: -0.590268}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Fox_Jaw
+      parentName: Fox_Head
+      position: {x: -0.12721853, y: 0.18921638, z: -0.00000002563138}
+      rotation: {x: -0.000000019970361, y: -0.00000005623688, z: -0.42261827, w: 0.9063078}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: Fox_LEar1
+      parentName: Fox_Head
+      position: {x: -0.109870054, y: -0.30080184, z: 0.25310624}
+      rotation: {x: 0.24395043, y: 0.28880596, z: 0.36316156, w: 0.8515827}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: Fox_LEar2
+      parentName: Fox_LEar1
+      position: {x: -0.16462688, y: 0.00000023841858, z: -0.00000009536743}
+      rotation: {x: 0.000004917382, y: 0.00000044703472, z: -0.03801313, w: 0.99927723}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1.0000001}
+    - name: Fox_REye
+      parentName: Fox_Head
+      position: {x: -0.16065598, y: -0.02073865, z: -0.18594873}
+      rotation: {x: 0.69034547, y: -0.1530459, z: 0.21263102, w: -0.6743799}
+      scale: {x: 1.0000005, y: 1, z: 0.9999996}
+    - name: Fox_UpperREyelid
+      parentName: Fox_Head
+      position: {x: -0.16065589, y: -0.020738697, z: -0.18594873}
+      rotation: {x: -0.7337727, y: -0.0347282, z: -0.032037143, w: 0.6777502}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999997}
+    - name: Fox_LowerREyelid
+      parentName: Fox_Head
+      position: {x: -0.16065589, y: -0.020738697, z: -0.18594873}
+      rotation: {x: -0.60164404, y: 0.33486542, z: -0.4212757, w: 0.59026814}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: Fox_REar1
+      parentName: Fox_Head
+      position: {x: -0.10986996, y: -0.30080184, z: -0.25310624}
+      rotation: {x: -0.24395293, y: -0.28880706, z: 0.36316118, w: 0.85158175}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    - name: Fox_REar2
+      parentName: Fox_REar1
+      position: {x: -0.16462679, y: -0.00000014305115, z: -0.00000007152558}
+      rotation: {x: -0.0000049918885, y: -0.0000002980232, z: 0.038015764, w: -0.9992771}
+      scale: {x: 0.9999997, y: 1.0000005, z: 0.9999999}
+    - name: Fox_F_LLeg1
+      parentName: Fox_Ribcage
+      position: {x: -0.023997737, y: 0.0042314054, z: 0.25108168}
+      rotation: {x: -0.34402683, y: 0.62141246, z: -0.34077197, w: -0.6159275}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000006}
+    - name: Fox_F_LLeg2
+      parentName: Fox_F_LLeg1
+      position: {x: -0.34010276, y: 0.000004208088, z: 0.0000005483627}
+      rotation: {x: 0.07997359, y: 0.0067906654, z: -0.02886564, w: 0.99635583}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.99999994}
+    - name: Fox_F_LLegAnkle
+      parentName: Fox_F_LLeg2
+      position: {x: -0.32698625, y: 0, z: 0}
+      rotation: {x: -0.039690506, y: -0.06823258, z: -0.10737343, w: 0.99108016}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Fox_F_LLegDigit11
+      parentName: Fox_F_LLegAnkle
+      position: {x: -0.102812074, y: 0.009335423, z: -0.0000029563905}
+      rotation: {x: -0.0000038221474, y: 0.000006157904, z: -0.5099837, w: 0.860184}
+      scale: {x: 1.0000004, y: 0.9999996, z: 0.99999994}
+    - name: Fox_F_RLeg1
+      parentName: Fox_Ribcage
+      position: {x: -0.023997689, y: 0.0042313575, z: -0.25108168}
+      rotation: {x: -0.34402707, y: 0.6214078, z: 0.34077486, w: 0.61593044}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: Fox_F_RLeg2
+      parentName: Fox_F_RLeg1
+      position: {x: -0.34010276, y: 0.000004196167, z: -0.0000005483627}
+      rotation: {x: -0.07997794, y: -0.006787536, z: -0.02887039, w: 0.9963554}
+      scale: {x: 1.0000032, y: 0.9999968, z: 1.0000005}
+    - name: Fox_F_RLegAnkle
+      parentName: Fox_F_RLeg2
+      position: {x: -0.32698616, y: 0.000000023841858, z: 0}
+      rotation: {x: 0.039701216, y: 0.06825447, z: -0.10738363, w: 0.9910772}
+      scale: {x: 0.9999972, y: 1.000003, z: 0.9999997}
+    - name: Fox_F_RLegDigit11
+      parentName: Fox_F_RLegAnkle
+      position: {x: -0.102812074, y: 0.009335423, z: 0.000002884865}
+      rotation: {x: 0.000003810971, y: -0.0000062845634, z: -0.5099838, w: 0.86018413}
+      scale: {x: 1.0000011, y: 0.9999983, z: 0.99999994}
+    - name: Fox_LLeg1
+      parentName: Fox_Pelvis
+      position: {x: -0, y: 0, z: 0.19275485}
+      rotation: {x: -0.7732906, y: 0.6335478, z: 0.0010097735, w: 0.025258623}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000002}
+    - name: Fox_LLeg2
+      parentName: Fox_LLeg1
+      position: {x: -0.35889283, y: -0.000000834465, z: 0.0000006437302}
+      rotation: {x: -0.09663718, y: -0.024760013, z: 0.3131586, w: 0.9444469}
+      scale: {x: 1.0000004, y: 0.99999934, z: 1.0000005}
+    - name: Fox_LLegAnkle
+      parentName: Fox_LLeg2
+      position: {x: -0.2583198, y: 0, z: 0.000000023841858}
+      rotation: {x: 0.078658886, y: 0.055531725, z: -0.4105707, w: 0.90673083}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000004}
+    - name: Fox_LLegDigit11
+      parentName: Fox_LLegAnkle
+      position: {x: -0.32539487, y: 0.007751322, z: 0}
+      rotation: {x: 0.00015826891, y: -0.00024220807, z: -0.54712546, w: 0.8370506}
+      scale: {x: 0.99999946, y: 0.9999996, z: 0.9999996}
+    - name: Fox_Tail1
+      parentName: Fox_Pelvis
+      position: {x: 0.16364339, y: -0.074528836, z: 0.0000000079957605}
+      rotation: {x: -0.00000008940697, y: 0.00000011920929, z: 0.99848884, w: -0.054955527}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+    - name: Fox_Tail2
+      parentName: Fox_Tail1
+      position: {x: -0.2673432, y: 0.00000009536743, z: -1.1368684e-14}
+      rotation: {x: -9.814415e-10, y: -0.000000030732377, z: -0.0078880815, w: 0.9999689}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Fox_Tail3
+      parentName: Fox_Tail2
+      position: {x: -0.20861693, y: 0, z: -1.0231816e-13}
+      rotation: {x: -0.000000027538462, y: -0.0000000033806837, z: -0.039595224, w: 0.9992158}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000004}
+    - name: Fox_Tail4
+      parentName: Fox_Tail3
+      position: {x: -0.22082157, y: 0, z: 1.2619239e-12}
+      rotation: {x: 0.0000000016440875, y: 0.000000057816216, z: -0.020017251, w: 0.99979967}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Fox_Tail5
+      parentName: Fox_Tail4
+      position: {x: -0.20310508, y: 0.000000047683717, z: -1.1959856e-11}
+      rotation: {x: 0.00000003418296, y: 0.000000026838563, z: -0.03897581, w: 0.99924016}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: Fox_Tail6
+      parentName: Fox_Tail5
+      position: {x: -0.18201934, y: 0, z: 3.3026026e-11}
+      rotation: {x: -0.000000036835537, y: -0.00000007948818, z: -0.025402982, w: 0.99967736}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: Fox_RLeg1
+      parentName: Fox_Pelvis
+      position: {x: -0, y: -0.000000047683717, z: -0.19275485}
+      rotation: {x: -0.7732904, y: 0.6335478, z: -0.0010075158, w: -0.025260674}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000006}
+    - name: Fox_RLeg2
+      parentName: Fox_RLeg1
+      position: {x: -0.35889268, y: -0.000000834465, z: -0.00000059604645}
+      rotation: {x: 0.096638314, y: 0.024759742, z: 0.31315663, w: 0.9444474}
+      scale: {x: 1.0000017, y: 0.9999964, z: 1.0000012}
+    - name: Fox_RLegAnkle
+      parentName: Fox_RLeg2
+      position: {x: -0.2583198, y: 0.000000023841858, z: 0.000000023841858}
+      rotation: {x: -0.07862316, y: -0.05544438, z: -0.41051823, w: 0.906763}
+      scale: {x: 1.0000044, y: 0.99999744, z: 0.9999986}
+    - name: Fox_RLegDigit11
+      parentName: Fox_RLegAnkle
+      position: {x: -0.32539484, y: 0.007751322, z: 0}
+      rotation: {x: -0.000108589404, y: 0.00016594118, z: -0.54717886, w: 0.83701575}
+      scale: {x: 0.9999996, y: 1.0000005, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: FoxTransform
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
