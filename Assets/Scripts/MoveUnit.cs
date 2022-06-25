@@ -39,7 +39,7 @@ public class MoveUnit : MonoBehaviour
     void LateUpdate()
     {
         safeDist = Vector3.Distance(transform.position, enemy.transform.position);
-        bool forwardInput = Input.GetKey("w");
+        bool forwardInput = Input.GetKeyDown("w");
         bool runPressed = Input.GetKey("left shift");
         float sideInput = Input.GetAxisRaw("Horizontal");
 
